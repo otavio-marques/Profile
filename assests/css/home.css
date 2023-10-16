@@ -253,10 +253,33 @@
 }
 /* Git Hub e Portfolio */
 .container .h-portfolio {
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 50px;
+}
+.container .h-portfolio .h-title-portfolio {
+    width: 100%;
+    min-height: 50px;
+    border-bottom: 2px solid #00E0FF;
+    margin-bottom: 50px;
+}
+.container .h-portfolio-layout{
     display: flex;
     width: 100%;
-    min-height: 30px;
-    margin-bottom: 10px;
+    min-height: 50px;
+}
+.container .h-portfolio .h-title-portfolio h2 {
+    margin-top: 5%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.container .h-portfolio .item {
+    display:block;
+    width: 100%;
+    min-height: 80px;
 }
 .container .h-portfolio .item h2 {
     font-family: 'Oswald', sans-serif;
@@ -265,10 +288,11 @@
     text-transform: uppercase;
     color: #000000;
 }
-.container .h-portfolio .item p {
+.container .h-portfolio .item a {
     font-family: 'Oswald', sans-serif;
     font-weight: normal;
     font-size: 18px;
+    color: #00E0FF;
 }
 
 /* Contato */
@@ -303,6 +327,12 @@
     color: #000000;
 }
 .container .h-contato .item p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: #00E0FF;
+}
+.container .h-contato .item a {
     font-family: 'Oswald', sans-serif;
     font-weight: normal;
     font-size: 18px;
