@@ -251,6 +251,25 @@
     border-radius: 6px;
     background-color: #00E0FF;   
 }
+/* Git Hub e Portfolio */
+.container .h-portfolio {
+    display: flex;
+    width: 100%;
+    min-height: 30px;
+    margin-bottom: 10px;
+}
+.container .h-portfolio .item h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.container .h-portfolio .item p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+}
 
 /* Contato */
 .container .h-contato {
